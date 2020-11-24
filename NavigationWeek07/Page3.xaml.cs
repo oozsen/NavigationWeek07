@@ -11,5 +11,10 @@ namespace NavigationWeek07
         {
             InitializeComponent();
         }
+
+        void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
     }
 }
