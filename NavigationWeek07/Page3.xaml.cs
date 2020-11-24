@@ -16,5 +16,10 @@ namespace NavigationWeek07
         {
             Navigation.PopAsync();
         }
+
+        void Button_Clicked_Root(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PopToRootAsync();
+        }
     }
 }

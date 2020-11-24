@@ -9,6 +9,9 @@
             <Label Text="Page 3"/>
             <Button Text="Take me to previous page"
                     Clicked="Button_Clicked"/>
+
+            <Button Text="Take me to Root page"
+                    Clicked="Button_Clicked_Root"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
