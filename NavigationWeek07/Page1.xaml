@@ -7,6 +7,9 @@
         <StackLayout HorizontalOptions="Center"
                      VerticalOptions="Center">
             <Label Text="Page 1"/>
+
+            <Button Text="Add Page 2 to navigation stack"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
