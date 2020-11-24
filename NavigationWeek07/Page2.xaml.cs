@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace NavigationWeek07
 {
-    public partial class MainPage : ContentPage
+    public partial class Page2 : ContentPage
     {
-        public MainPage()
+        public Page2()
         {
             InitializeComponent();
         }
